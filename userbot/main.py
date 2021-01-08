@@ -29,16 +29,16 @@ import re
 import userbot.cmdhelp
 
 DIZCILIK_STR = [
-    "Çıkartmayı dızlıyorum...",
-    "Yaşasın dızcılık...",
-    "Bu çıkartmayı kendi paketime davet ediyorum...",
-    "Bunu dızlamam lazım...",
-    "Hey bu güzel bir çıkartma!\nHemen dızlıyorum..",
+    "Çıkartmayı dızlıyorum😏...",
+    "Yaşasın dızcılık adjklasjd...",
+    "Bu çıkartmayı kendi paketime çaldım hakkını helal et...",
+    "Bunu dızlamam lazımdı çok güzel çünkü...",
+    "Hey bu güzel bir çıkartma!\nHemen çalıyorum..",
     "Çıkartmanı dızlıyorum\nhahaha.",
-    "Hey şuraya bak. (☉｡☉)!→\nBen bunu dızlarken...",
-    "Güller kırmızı menekşeler mavi, bu çıkartmayı paketime dızlayarak havalı olacağım...",
-    "Çıkartma hapsediliyor...",
-    "Bay dızcı bu çıkartmayı dızlıyor... ",
+    "Hey şuraya bak. 😱😱😱\nBen bunu dızlarken...",
+    "Yanıma seni, karşıma herkesi alabilirim....",
+    "Çıkartma Çalınıyor...",
+    "MR dızcı bu çıkartmayı dızlıyor😁... ",
 ]
 
 AFKSTR = [
