@@ -616,12 +616,12 @@ async def imdb(e):
         await e.edit("Geçerli bir film ismi gir.")
 
 
-@register(outgoing=True, pattern=r"^.trt(?: |$)([\s\S]*)")
+@register(outgoing=True, pattern=r"^.trt")
 async def translateme(trans):
     """ .trt komutu verilen metni Google Çeviri kullanarak çevirir. """
     translator = Translator()
     textx = await trans.get_reply_message()
-    message = trans.pattern_match.group(1)
+    message = extract_args(trans)
     if message:
         pass
     elif textx:
